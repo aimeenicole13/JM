@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Jan Michaels Intergalactic Running Club - Events</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Serverless web application example">
+    <meta name="author" content="">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.3/esri/css/main.css">
+    <link rel="stylesheet" href="css/ride.css">
+    <link rel="stylesheet" href="css/message.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+
+<section class="container">
+    <div class="columns features">
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-content">
+                    <div class="event_1">
+                        <h4>Scary Terry 5k Dash</h4>
+                        <img src="https://janmichaelsbucket.s3.amazonaws.com/Images/scary_terry.jpeg" alt="scary terry" />
+                        <button id="request1" class="btn btn-primary" onClick="clickMe(this)" disabled="disabled">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-content">
+                    <div class="event_2">
+                        <h4>Reverse Giraffe Half</h4>
+                        <img src="https://janmichaelsbucket.s3.amazonaws.com/Images/reverse_giraffe.jpeg" alt="reverse giraffe" />
+                        <button id="request2" class="btn btn-primary" disabled="disabled">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-content">
+                    <div class="event_3">
+                        <h4>Squanchy Marathon</h4>
+                        <img src="https://janmichaelsbucket.s3.amazonaws.com/Images/squanchy.jpeg" alt="squanchy" />
+                        <button id="request3" class="btn btn-primary" disabled="disabled">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-content">
+                    <div class="event_4">
+                        <h4>Pickle Ricks Quick 1K</h4>
+                        <img src="https://janmichaelsbucket.s3.amazonaws.com/Images/pickle_rick.jpeg" alt="pickle rick" />
+                        <button id="request4" class="btn btn-primary" disabled="disabled">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="columns features">
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-content">
+                    <div class="event_5">
+                        <h4>Simple Ricks 5k Fun Run</h4>
+                        <img src="https://janmichaelsbucket.s3.amazonaws.com/Images/simple_rick.jpeg" alt="simple rick" />
+                        <button id="request5" class="btn btn-primary" disabled="disabled">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-content">
+                    <div class="event_6">
+                        <h4>Lil Dippers 15K Saunter</h4>
+                        <img src="https://janmichaelsbucket.s3.amazonaws.com/Images/little_dipper.jpeg" alt="little dipper" />
+                        <button id="request6" class="btn btn-primary" disabled="disabled">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-content">
+                    <div class="event_7">
+                        <h4>Beths No Regrets 10K</h4>
+                        <img src="https://janmichaelsbucket.s3.amazonaws.com/Images/beth_smith.jpeg" alt="beth" />
+                        <button id="request7" class="btn btn-primary" disabled="disabled">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-content">
+                    <div class="event_8">
+                        <h4>Ants In My Eyes 10K</h4>
+                        <img src="https://janmichaelsbucket.s3.amazonaws.com/Images/ants_in_my_eyes_johnson.jpeg" alt="ants in eyes johnson" />
+                        <button id="request8" class="btn btn-primary" disabled="disabled">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <input onClick="window.location.href='signin.html';" type="submit" Value="Sign Out">
+
+    <script src="js/vendor/jquery-3.1.0.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/aws-cognito-sdk.min.js"></script>
+    <script src="js/vendor/amazon-cognito-identity.min.js"></script>
+    <script src="https://js.arcgis.com/4.3/"></script>
+    <script src="js/config.js"></script>
+    <script src="js/cognito-auth.js"></script>
+    <script src="js/esri-map.js"></script>
+    <script src="js/ride.js"></script>
+</body>
+
+</html>
